@@ -100,9 +100,9 @@ func main() {
 				   
 				}
 			
-				fmt.Println("pontos 1:")
+				fmt.Println("pontos jogador 1:")
 				fmt.Println(pontos_jogador1)
-				fmt.Println("pontos 2:")
+				fmt.Println("pontos jogador 2:")
 				fmt.Println(pontos_jogador2)
 				//pontos_jogador1 = 5
 			
@@ -110,8 +110,16 @@ func main() {
 
 	 		if pontos_jogador1 == pontos {
 	 			games_jogador1 = games_jogador1 + 1
+				fmt.Println("games jogador 1:")
+				fmt.Println(games_jogador1)
+				fmt.Println("games jogador 2:")
+				fmt.Println(games_jogador2)
 	 		} else if pontos_jogador2 == pontos {
 	 			games_jogador2 = games_jogador2 + 1
+				fmt.Println("games jogador 1:")
+				fmt.Println(games_jogador1)
+				fmt.Println("games jogador 2:")
+				fmt.Println(games_jogador2)
 	 		}
 
 	 		pontos_jogador2 = 0
@@ -121,8 +129,16 @@ func main() {
 
 	 	if games_jogador1 == game {
 	 			set_jogador1 = set_jogador1 + 1
+				fmt.Println("sets jogador 1:")
+				fmt.Println(set_jogador1)
+				fmt.Println("sets jogador 2:")
+				fmt.Println(set_jogador2)
 	 		} else if games_jogador2 == game {
 	 			set_jogador2 = set_jogador2 + 1
+				fmt.Println("sets jogador 1:")
+				fmt.Println(set_jogador1)
+				fmt.Println("sets jogador 2:")
+				fmt.Println(set_jogador2)
 	 		}
 
 	 		games_jogador2 = 0
